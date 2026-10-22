@@ -1,0 +1,10 @@
+groq
+google-genai
+python-dotenv
+mistralai
+fastapi
+uvicorn
+sounddevice
+numpy
+faster-whisper
+av<19
