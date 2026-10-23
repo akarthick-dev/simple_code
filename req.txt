@@ -1,10 +1,5 @@
-groq
-google-genai
-python-dotenv
-mistralai
 fastapi
 uvicorn
-sounddevice
-numpy
-faster-whisper
-av<19
+python-dotenv
+python-multipart
+google-genai
