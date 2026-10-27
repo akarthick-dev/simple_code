@@ -1,3 +1,5 @@
+# pyrefly: ignore[missing-import]
+from app.File import file
 from typing import Annotated
 
 from fastapi import FastAPI, File, UploadFile
@@ -36,3 +38,6 @@ async def create_upload_file(file: UploadFile):
 async def create_upload_file2(file: UploadFile):
     content = await file.read()
     return {"filename": file.filename, "file_size": len(content)}
+
+
+app.include_router(file.route)

@@ -20,6 +20,3 @@ def gemini_llm(prompt: str) -> str:
     )
     return response.text or ""
 
-
-
- 
